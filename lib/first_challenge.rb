@@ -1,4 +1,3 @@
-require 'pry'
 
 def first_challenge
   contacts = {
@@ -6,7 +5,6 @@ def first_challenge
       name: "Jon",
       email: "jon_snow@thewall.we", 
       favorite_icecream_flavors: ["chocolate", "vanilla", "mint chip"],
-      binding.pry
       knows: nil
     },
     "Freddy Mercury" => {
