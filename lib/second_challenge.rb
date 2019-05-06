@@ -7,7 +7,7 @@ def second_challenge
   }
 
   #code your solution here!
-groceries.values
+groceries.values.join(", ")
   
 
 end
