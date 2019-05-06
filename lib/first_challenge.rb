@@ -21,7 +21,7 @@ def first_challenge
 
     if attribute == :favorite_icecream_flavors
       value.delete("strawberry")
-        
+        binding.pry
     end
   end
   
