@@ -1,8 +1,7 @@
-require 'pry'
+
 
 def first_challenge
   contacts = {
-    binding.pry
     "Jon Snow" => {
       
       name: "Jon",
