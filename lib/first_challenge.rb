@@ -22,3 +22,4 @@ def first_challenge
   contacts
 end
 
+binding.pry
