@@ -9,6 +9,7 @@ def first_challenge
       favorite_icecream_flavors: ["chocolate", "vanilla", "mint chip"],
       knows: nil
     },
+    binding.pry
     "Freddy Mercury" => {
       name: "Freddy",
       email: "freddy@mercury.com",
