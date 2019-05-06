@@ -24,7 +24,7 @@ contacts.each do |person, data|
   data.each do |attribute, value|
  
     if attribute == :favorite_icecream_flavors
-      binding.pry
+     
       value.each do |flavor|
         
         puts "#{flavor}"
