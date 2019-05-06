@@ -1,4 +1,4 @@
-
+require 'pry'
 
 def first_challenge
   contacts = {
