@@ -13,7 +13,7 @@ def first_challenge
     "Freddy Mercury" => {
       name: "Freddy",
       email: "freddy@mercury.com",
-      favorite_icecream_flavors: ["strawberry", "cookie dough", "mint chip"]
+      favorite_icecream_flavors: [, "cookie dough", "mint chip"]
     }
   }
 
