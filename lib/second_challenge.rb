@@ -9,6 +9,5 @@ def second_challenge
 
   #code your solution here!
 groceries.values.flatten[1]
-binding.pry
 
 end
