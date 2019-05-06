@@ -21,9 +21,9 @@ contacts["Freddy Mercury"].each do |attribute, value|
 
     if attribute == :favorite_icecream_flavors
       binding.pry
-      value.each do |flavor|
+      value.select do |flavor|
         
-        puts "#{flavor}"
+        flavor != "strawberry"
         
       end
     end
