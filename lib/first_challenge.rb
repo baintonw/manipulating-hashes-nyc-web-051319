@@ -29,8 +29,9 @@ contacts.each do |person, data|
  
     if attribute == :favorite_icecream_flavors
       value.each do |flavor|
-        if
-        puts "#{flavor}"
+        if flavor == "strawberry"
+          delete flavor
+        end
       end
     end
   end
